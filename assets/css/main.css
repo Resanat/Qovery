@@ -232,15 +232,26 @@ section{
     width: 847px;
     height: 453px;
     margin: auto;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: "Hack";
 }
 
 /* POLICE */
 .let{
-    font-size: 15px;
-    line-height: 19px;
     color: #5d64d2;
-    font-weight: 400;
-    font-family: "Hack";
+}
+
+.rose{
+    color: rgb(236, 89, 114);
+}
+
+.gray{
+    color: rgb(165, 164, 164);
+}
+.orange{
+    color: orange;
 }
 
 
@@ -320,5 +331,9 @@ footer{
 
     font-family: 'S FU IText';
     src: url('fonts/sfuitext-regular-webfont.woff') format('wolf');
+
+    font-family: 'Hack';
+    src: url('fonts/hack-regular-webfont.woff') format('wolf');
+
 }
 

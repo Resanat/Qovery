@@ -82,30 +82,30 @@
             </div>
             <div class="bloc_text">
                 <div class="contenu_texte_ide">
-                    <pre><span class="let">let</span> engine = Engine::new(</pre>
-                    <pre>    context, // parameters</pre>
-                    <pre>    local_docker, // initialize Docker as a Build Platform</pre>
-                    <pre>    ecr, // initialize Elastic Container Registry</pre>
-                    <pre>    aws, // initialize AWS account</pre>
-                    <pre>    cloudflare, // initialize Cloudflare as DNS Nameservers</pre>
+                    <pre><span class="let">let</span> engine <span class="rose">=</span> Engine::new(</pre>
+                    <pre>    context, <span class="gray">// parameters</span></pre>
+                    <pre>    local_docker, <span class="gray">// initialize Docker as a Build Platform</span></pre>
+                    <pre>    ecr, <span class="gray">// initialize Elastic Container Registry</span></pre>
+                    <pre>    aws, <span class="gray">// initialize AWS account</span></pre>
+                    <pre>    cloudflare, <span class="gray">// initialize Cloudflare as DNS Nameservers</span></pre>
                     <pre>);</pre>
                     <br>
-                    <pre>let session = match engine.session() {</pre>
-                    <pre>    Ok(session) => session, // get the session</pre>
-                    <pre>    Err(config_error) => panic!("configuration error {:?}", config_error),</pre>
+                    <pre><span class="let">let</span> session <span class="rose">=</span> <span class="let">match</span> engine.<span class="orange">session()</span> {</pre>
+                    <pre>    Ok(session) <span class="rose">=></span> session, <span class="gray">// get the session</span></pre>
+                    <pre>    Err(config_error) <span class="rose">=></span> panic!("<span class="let">configuration error {:?}</span>", config_error),</pre>
                     <pre>};</pre>
                     <br>
-                    <pre>let mut tx = session.transaction();</pre>
+                    <pre><span class="let">let mut</span> tx <span class="rose">=</span> session.<span class="orange">transaction();</span></pre>
                     <br>
                     
-                    <pre>// create EKS (AWS managed Kubernetes cluster)</pre>
-                    <pre>tx.create_kubernetes(&eks);</pre>
+                    <pre><span class="gray">// create EKS (AWS managed Kubernetes cluster)</span></pre>
+                    <pre>tx.<span class="orange">create_kubernetes</span>(&eks);</pre>
                     <br>
-                    <pre>// create the infrastructure and wait for the result</pre>
-                    <pre>match tx.commit() {</pre> 
-                    <pre>    TransactionResult::Ok => println!("OK"),</pre>
-                    <pre>    TransactionResult::Rollback(commit_err) => println!("ERROR but rollback OK"), </pre>
-                    <pre>    TransactionResult::UnrecoverableError(commit_err, rollback_err) => println!("FATAL ERROR")</pre>
+                    <pre><span class="gray">// create the infrastructure and wait for the result</span></pre>
+                    <pre><span, class="let">match</span> tx.<span class="orange">commit()</span> {</pre> 
+                    <pre>    TransactionResult::Ok <span class="rose">=></span> println!("<span class="let">OK</span>"),</pre>
+                    <pre>    TransactionResult::<span class="orange">Rollback</span>(commit_err) <span class="rose">=></span> println!("<span class="let">ERROR but rollback OK</span>"), </pre>
+                    <pre>    TransactionResult::<span class="orange">UnrecoverableError</span>(commit_err, rollback_err) <span class="rose">=></span> println!("FATAL ERROR")</pre>
                     <pre>};</pre>                    
                 </div>
             </div>
