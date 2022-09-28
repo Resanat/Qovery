@@ -1,0 +1,122 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+header{
+    display: flex;
+    background-color: rgba(55, 51, 97, 0.952);
+    width: 1440px;
+    margin: auto;
+    height: 926px;
+    border: 10px solid yellow;
+}
+
+.header_left, .header_right{
+    background-color: blue;
+    border:2px solid black;
+    color: white;
+    width: 50%;
+}
+
+.header_left{
+    margin-left: 144px;
+}
+
+.header_right{
+    margin-right: 144px;
+}
+
+section{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 1440px;
+    margin: auto;
+    height: 1674px;
+}
+
+.article_1{
+    border:5px solid red;
+    background-color: aqua;
+    width: 100%;
+    height: 80px;
+    margin: 0 192px 0 192px;
+
+}
+
+.article_2{
+    display: flex;
+    border:5px solid orange;
+    background-color: rgb(3, 117, 117);
+    width: 100%;
+    height: 80px;
+    margin: 0 192px 0 192px;
+
+}
+
+.conteneur_bouton_1, .conteneur_bouton_2{
+    border:5px solid rgb(6, 194, 228);
+    width: 50%;
+}
+
+.bouton_1{
+    margin-right: 50px;
+    text-align: right;
+}
+
+.bouton_2{
+    margin-left: 50px;
+    text-align: left;
+}
+
+
+.section_2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    width: 1440px;
+    height: 1560px;
+    margin: 0 144px 0 144px;
+    border: 5px solid black;
+}
+
+.bloc{
+    border: 5px solid orchid;
+    width: 50%;
+}
+
+.bloc_2{
+    border: 5px solid wheat;
+    width: 100%;
+}
+
+.bloc_3{
+    display: flex;
+    border: 5px solid rgb(4, 1, 136);
+    width: 100%;
+    }
+
+    .logo{
+        border: 5px solid white;
+        width: 33.33%;
+    }
+
+    
+footer{
+    background-color: rgba(55, 51, 97, 0.952);
+    height: 400px;
+    width: 1440px;
+    margin: auto;
+}
+
+
+/* font */
+@font-face {
+    font-family: 'HK Grotesk';
+    src: url('fonts/hkgrotesk-bold-webfont.woff') format('wolf');
+}
+
