@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: normal;
-
 }
 
 body{
@@ -22,7 +21,6 @@ header{
 
 .header_left, .header_right{
     margin-top: 48px;
-    border:2px solid black;
     color: white;
     width: 50%;
 }
@@ -47,7 +45,6 @@ header{
     margin-left: 15px;
     margin-top: 8px;
     padding: 8px;
-    border: 2px solid white;
     border-radius: 5px;
     font-family: "HK Grotesk";
 }
@@ -77,7 +74,6 @@ header{
 .art_5{
     margin-top: 48px;
     display: flex;
-    border: 5px solid white;
 }
 
 .bouton_footer_1{
@@ -154,7 +150,7 @@ section{
     background-color: whitesmoke;
     width: 1440px;
     margin: auto;
-    height: 1674px;
+    height: 1640px;
 }
 
 .article_1{
@@ -223,7 +219,7 @@ section{
 
 .article_1 .bloc_text{
     width: 899px;
-    weight: 555px;
+    weight: 600px;
     margin: auto;
     background-color: white;
 }
@@ -231,7 +227,7 @@ section{
 .contenu_texte_ide {
     padding-top: 72px;
     width: 847px;
-    height: 453px;
+    height: 590px;
     margin: auto;
     font-size: 15px;
     line-height: 19px;
@@ -261,7 +257,7 @@ section{
     border:5px solid orange;
     background-color: rgb(3, 117, 117);
     width: auto;
-    height: 80px;
+    height: auto;
     margin: 0 192px 0 192px;
 }
 
@@ -335,13 +331,51 @@ section{
 }
 
 .bloc{
+    margin-top: 112px;
     border: 5px solid orchid;
     width: 50%;
 }
 
+.titre_bloc{
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #454658;
+    font-weight: 700;
+    font-family: "HK Grotesk";
+}
+
+.contenu_bloc{
+    margin-top: 24px;
+    width: 408px;
+    height: 173px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454658;
+    font-family: "S FU IText";
+}
+
+.contenu_bloc a{
+    text-decoration: none;
+}
+
+
+
+/* LOGO ET TITRE FOOTER */
+
 .bloc_2{
     border: 5px solid wheat;
     width: 100%;
+}
+
+.titre_footer{
+    margin-top: 112px;
+    font-size: 32px;
+    line-height: 35px;
+    color: #454658;
+    font-weight: 700;
+    font-family: "HK Grotesk";
+    text-align: center;
 }
 
 .bloc_3{
@@ -351,15 +385,25 @@ section{
     margin: auto;
     }
 
-    .logo{
-        border: 5px solid white;
-        width: 33.33%;
-    }
+.logo1, .logo2, .logo3{
+    margin: 20px;
+    text-align: center;
+    border: 5px solid white;
+    width: 33.33%;
+ }
 
-    
+ .logo1{
+    margin-top: 40px;
+ }
+
+ .logo3{
+    margin-top: 50px;
+ }
+
+ 
 footer{
     background-color: rgba(55, 51, 97, 0.952);
-    height: 400px;
+    height: 176px;
     width: 1440px;
     margin: auto;
 }
