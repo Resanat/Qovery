@@ -5,20 +5,135 @@
     font-weight: normal;
 }
 
+body{
+    background-image: url(images/grid-16x16.png);
+    background-repeat: repeat;
+}
+
 header{
     display: flex;
-    background-color: rgba(55, 51, 97, 0.952);
+    background-color: rgba(55, 51, 97, 0.952); 
     width: 1440px;
     margin: auto;
     height: 926px;
-    border: 10px solid yellow;
+/*    border: 10px solid yellow; */
 }
 
 .header_left, .header_right{
-    background-color: blue;
+    margin-top: 48px;
     border:2px solid black;
     color: white;
     width: 50%;
+}
+
+.titre_1{
+    margin-top: 96px;
+    display: flex;
+}
+
+.art_1{
+    font-size: 46px;
+    line-height: 51px;
+    color: black;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "HK Grotesk";
+}
+
+.art_2{
+    background-color: white;
+    color: black;
+    margin-left: 15px;
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "HK Grotesk";
+}
+
+.art_3{
+    margin-top: 48px;
+    width: 487px;
+    height: 84px;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "HK Grotesk SemiBold Legacy";
+}
+
+.art_4{
+    margin-top: 40px;
+    width: 473px;
+    height: 86px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8686b3;
+    font-family: "S FU IText";
+}
+
+.art_5{
+    margin-top: 48px;
+    display: flex;
+}
+
+.bouton_footer_1{
+    display: flex;
+    padding-top: 6px;
+    padding-left: 20px;
+    width: 157px;
+    height: 39px;
+    border-radius: 3px;
+    background-color: #454658;
+    margin-right: 50px;
+
+}
+
+.bouton_footer_1 .img{
+    margin: 4px 7px 0 0;
+}
+
+.bouton_footer_1 .text{
+    margin-top: 4px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "S FU IText";
+}
+
+.bouton_footer_2{
+    display: flex;
+    padding-top: 6px;
+    padding-left: 20px;
+    width: 182px;
+    height: 39px;
+    border-radius: 3px;
+    background-color: #6578c0;
+
+}
+
+.bouton_footer_2 .img{
+    margin: 4px 10px 0 0;
+}
+
+.bouton_footer_2 .text{
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "S FU IText";
+}
+
+.taille1{
+    font-size: 18px;
+}
+
+.taille2{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .header_left{
@@ -42,17 +157,17 @@ section{
 .article_1{
     border:5px solid red;
     background-color: aqua;
-    width: 100%;
+    width: auto;
     height: 80px;
     margin: 0 192px 0 192px;
-
+/*    margin: 0 96px 0 96px;*/
 }
 
 .article_2{
     display: flex;
     border:5px solid orange;
     background-color: rgb(3, 117, 117);
-    width: 100%;
+    width: auto;
     height: 80px;
     margin: 0 192px 0 192px;
 
@@ -78,9 +193,10 @@ section{
     display: flex;
     flex-wrap: wrap;
     background-color: cadetblue;
-    width: 1440px;
+    width: 1152px;
+    margin: auto;
     height: 1560px;
-    margin: 0 144px 0 144px;
+/*    margin: 0 144px 0 144px; */
     border: 5px solid black;
 }
 
@@ -97,7 +213,8 @@ section{
 .bloc_3{
     display: flex;
     border: 5px solid rgb(4, 1, 136);
-    width: 100%;
+    width: 720px;
+    margin: auto;
     }
 
     .logo{
@@ -118,5 +235,8 @@ footer{
 @font-face {
     font-family: 'HK Grotesk';
     src: url('fonts/hkgrotesk-bold-webfont.woff') format('wolf');
+
+    font-family: 'S FU IText';
+    src: url('fonts/sfuitext-regular-webfont.woff') format('wolf');
 }
 
