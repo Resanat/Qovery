@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: normal;
+
 }
 
 body{
@@ -10,13 +11,13 @@ body{
     background-repeat: repeat;
 }
 
+/* HEADER */
 header{
     display: flex;
     background-color: rgba(55, 51, 97, 0.952); 
     width: 1440px;
     margin: auto;
     height: 926px;
-/*    border: 10px solid yellow; */
 }
 
 .header_left, .header_right{
@@ -63,6 +64,7 @@ header{
 }
 
 .art_4{
+    margin-left: 16px;
     margin-top: 40px;
     width: 473px;
     height: 86px;
@@ -86,7 +88,6 @@ header{
     border-radius: 3px;
     background-color: #454658;
     margin-right: 50px;
-
 }
 
 .bouton_footer_1 .img{
@@ -111,7 +112,6 @@ header{
     height: 39px;
     border-radius: 3px;
     background-color: #6578c0;
-
 }
 
 .bouton_footer_2 .img{
@@ -144,6 +144,8 @@ header{
     margin-right: 144px;
 }
 
+
+/* section */
 section{
     border: 5px solid black;
     display: flex;
@@ -158,10 +160,89 @@ section{
     border:5px solid red;
     background-color: aqua;
     width: auto;
-    height: 80px;
     margin: 0 192px 0 192px;
 /*    margin: 0 96px 0 96px;*/
 }
+
+.article_1 .text_1{
+    margin-top: 96px;
+    margin-bottom: 48px;
+    font-size: 32px;
+    line-height: 35px;
+    color: #454658;
+    font-weight: 800;
+    font-family: "HK Grotesk";
+    text-align: center;
+}
+
+.article_1 .text_2{
+    width: 837px;
+    height: 86px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454658;
+    font-family: "S FU IText";
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.article_1 .image_center{
+    text-align: center;
+}
+
+.article_1 .text_usage{
+    margin-top: 128px;
+    font-size: 32px;
+    line-height: 35px;
+    color: #454658;
+    font-weight: 700;
+    font-family: "HK Grotesk";
+    text-align: center;
+}
+
+.article_1 .text_initialise{
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454658;
+    font-family: "S FU IText";
+    text-align: center;
+}
+
+.article_1 .image_fond{
+    background-image: url(images/usage.svg);
+}
+
+.article_1 .image_fond{
+    width: 847px;
+    height: 80px;
+    margin: auto;
+}
+
+.article_1 .bloc_text{
+    width: 899px;
+    weight: 555px;
+    margin: auto;
+    background-color: white;
+}
+
+.contenu_texte_ide {
+    padding-top: 72px;
+    width: 847px;
+    height: 453px;
+    margin: auto;
+}
+
+/* POLICE */
+.let{
+    font-size: 15px;
+    line-height: 19px;
+    color: #5d64d2;
+    font-weight: 400;
+    font-family: "Hack";
+}
+
 
 .article_2{
     display: flex;
@@ -170,8 +251,9 @@ section{
     width: auto;
     height: 80px;
     margin: 0 192px 0 192px;
-
 }
+
+
 
 .conteneur_bouton_1, .conteneur_bouton_2{
     border:5px solid rgb(6, 194, 228);
