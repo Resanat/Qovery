@@ -78,6 +78,10 @@ header{
     display: flex;
 }
 
+.art_5 a{
+    text-decoration: none;
+}
+
 .bouton_footer_1{
     display: flex;
     padding-top: 6px;
@@ -87,6 +91,10 @@ header{
     border-radius: 3px;
     background-color: #454658;
     margin-right: 50px;
+}
+
+.art_5 a:hover .bouton_footer_1{
+    background-color: #616161;
 }
 
 .bouton_footer_1 .img{
@@ -111,6 +119,10 @@ header{
     height: 39px;
     border-radius: 3px;
     background-color: #6578c0;
+}
+
+.art_5 a:hover .bouton_footer_2{
+    background-color: #969db4;
 }
 
 .bouton_footer_2 .img{
@@ -264,6 +276,10 @@ section{
     width: 50%;
 }
 
+.conteneur_bouton_1 a, .conteneur_bouton_2 a{
+    text-decoration: none;
+}
+
 .bouton_section_1{
     display: flex;
     padding-top: 6px;
@@ -273,6 +289,10 @@ section{
     border-radius: 3px;
     background-color: #454658;
     margin-left: 306px;
+}
+
+.conteneur_bouton_1 a:hover .bouton_section_1{
+    background-color: #616161;
 }
 
 .bouton_section_1 .img{
@@ -299,6 +319,11 @@ section{
     background-color: #6578c0;
     margin-left: 18px;
 }
+
+.conteneur_bouton_2 a:hover .bouton_section_2{
+    background-color: #969db4;
+}
+
 
 .bouton_section_2 .img{
     margin: 4px 10px 0 0;
@@ -352,7 +377,9 @@ section{
     text-decoration: none;color: blue;
 }
 
-
+.contenu_bloc a:hover{
+    text-decoration: none;color: rgb(110, 110, 248);
+}
 
 /* LOGO ET TITRE FOOTER */
 
